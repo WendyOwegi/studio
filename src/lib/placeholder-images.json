@@ -1,3 +1,70 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-main",
+      "description": "Elegant event setting with warm lights",
+      "imageUrl": "https://images.unsplash.com/photo-1759124650320-d629a3d73d9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxldmVudCUyMHNldHRpbmd8ZW58MHx8fHwxNzYxNTcxOTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "event setting"
+    },
+    {
+      "id": "blog-wedding-planning",
+      "description": "A beautiful wedding ceremony setup",
+      "imageUrl": "https://images.unsplash.com/photo-1523369579000-4ec0fe04db44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3ZWRkaW5nJTIwY2VyZW1vbnl8ZW58MHx8fHwxNzYxNTA2Mzk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding ceremony"
+    },
+    {
+      "id": "blog-corporate-gala",
+      "description": "A sophisticated corporate gala dinner",
+      "imageUrl": "https://images.unsplash.com/photo-1633523225785-9dbb2ffe3ee6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29ycG9yYXRlJTIwZ2FsYXxlbnwwfHx8fDE3NjE1Njg0Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "corporate gala"
+    },
+    {
+      "id": "blog-birthday-bash",
+      "description": "A fun and colorful birthday party",
+      "imageUrl": "https://images.unsplash.com/photo-1631857455684-a54a2f03665f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiaXJ0aGRheSUyMHBhcnR5fGVufDB8fHx8MTc2MTQ3OTkyOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "birthday party"
+    },
+    {
+      "id": "blog-diy-decor",
+      "description": "Handmade DIY event decorations",
+      "imageUrl": "https://images.unsplash.com/photo-1521219051660-eb4dfcf53a33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxESVklMjBkZWNvcmF0aW9uc3xlbnwwfHx8fDE3NjE1NzE5NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "DIY decorations"
+    },
+    {
+      "id": "vendor-caterer",
+      "description": "A gourmet dish prepared by a caterer",
+      "imageUrl": "https://images.unsplash.com/photo-1675670579446-8692392f91dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxnb3VybWV0JTIwZm9vZHxlbnwwfHx8fDE3NjE0OTU0NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gourmet food"
+    },
+    {
+      "id": "vendor-photographer",
+      "description": "A photographer capturing a moment",
+      "imageUrl": "https://images.unsplash.com/photo-1493863641943-9b68992a8d07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwaG90b2dyYXBoZXJ8ZW58MHx8fHwxNzYxNTcxOTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "photographer"
+    },
+    {
+      "id": "vendor-decorator",
+      "description": "Elegant floral arrangement by a decorator",
+      "imageUrl": "https://images.unsplash.com/photo-1567696153798-9111f9cd3d0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmbG9yYWwlMjBhcnJhbmdlbWVudHxlbnwwfHx8fDE3NjE1MDM1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "floral arrangement"
+    },
+    {
+      "id": "gallery-1",
+      "description": "A vibrant outdoor festival",
+      "imageUrl": "https://images.unsplash.com/photo-1638132704781-d1bdc0f43a6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxvdXRkb29yJTIwZmVzdGl2YWx8ZW58MHx8fHwxNzYxNTcxOTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "outdoor festival"
+    },
+    {
+      "id": "gallery-2",
+      "description": "An intimate candlelit dinner party",
+      "imageUrl": "https://images.unsplash.com/photo-1547573854-74d2a71d0826?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkaW5uZXIlMjBwYXJ0eXxlbnwwfHx8fDE3NjE1NDI2MzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dinner party"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Guests mingling at a conference",
+      "imageUrl": "https://images.unsplash.com/photo-1560439514-4e9645039924?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb25mZXJlbmNlfGVufDB8fHx8MTc2MTUxNjc1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "conference"
+    }
+  ]
 }
