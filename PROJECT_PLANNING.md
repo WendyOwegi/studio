@@ -115,6 +115,19 @@ This estimation assumes a single developer with expertise in the specified tech 
 
 **Contingency Buffer:** A 20% contingency buffer (**~3 days**) is recommended, bringing the total estimated project duration to **19 days**.
 
+### 3.1. Critical Path Analysis
+
+The critical path represents the sequence of tasks that determine the total project duration. Delays in these tasks will directly impact the project completion date. While many front-end tasks can be developed in parallel, they are all dependent on the foundational setup.
+
+The critical path for the Event Horizon Planner is as follows:
+
+1.  **Phase 1: Foundation & Core UI (3 Days):** This entire phase is on the critical path as nothing can be built without the project setup, global layout, and basic component structure.
+2.  **AI Theme Generator (2 Days):** As the most technically complex feature involving external services (Genkit), this task is on the critical path. Its successful implementation is key to fulfilling a major project requirement and may have unforeseen challenges.
+3.  **Blog & Vendor Directory (4 Days):** These are core content features. We'll consider them on the critical path as they represent a significant portion of the user-facing application. The other tools (Budget, RSVP, Checklist) can be developed in parallel.
+4.  **Phase 3: Testing & Refinement (3 Days):** This final phase is critical as it is dependent on the completion of all development tasks.
+
+**Total Critical Path Duration:** 3 + 2 + 4 + 3 = **12 Days**. This is the shortest possible time to complete the project if tasks not on the critical path are worked on in parallel.
+
 ---
 
 ## 4. Communication Plan
