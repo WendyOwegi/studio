@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Event Horizon Planner',
+  title: 'Eventbase',
   description: 'Your ultimate guide to event planning. Tips, tools, and inspiration.',
 };
 

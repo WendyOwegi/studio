@@ -1,6 +1,6 @@
-# Event Horizon Planner
+# Eventbase
 
-Welcome to the Event Horizon Planner, your ultimate guide to seamless event planning. This application is a comprehensive web-based platform designed to provide users with the tools and inspiration needed to craft unforgettable moments.
+Welcome to Eventbase, your ultimate guide to seamless event planning. This application is a comprehensive web-based platform designed to provide users with the tools and inspiration needed to craft unforgettable moments.
 
 ## ✨ Features
 

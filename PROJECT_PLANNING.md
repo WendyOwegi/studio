@@ -1,6 +1,6 @@
-# Event Horizon Planner: Project Planning Documents
+# Eventbase: Project Planning Documents
 
-This document outlines the Software Requirements Specification (SRS), Risk Analysis, Project Estimation, and Communication Plan for the Event Horizon Planner application.
+This document outlines the Software Requirements Specification (SRS), Risk Analysis, Project Estimation, and Communication Plan for the Eventbase application.
 
 ---
 
@@ -9,7 +9,7 @@ This document outlines the Software Requirements Specification (SRS), Risk Analy
 ### 1.1. Introduction
 
 #### 1.1.1. Purpose
-This document provides a detailed description of the requirements for the **Event Horizon Planner** application. It will serve as the guiding document for development, testing, and stakeholder alignment.
+This document provides a detailed description of the requirements for the **Eventbase** application. It will serve as the guiding document for development, testing, and stakeholder alignment.
 
 #### 1.1.2. Scope
 The application is a comprehensive web-based platform for event planning. It includes tools for blog management, vendor directory, budget calculation, RSVP tracking, task management (checklist), and AI-powered theme generation.
@@ -20,7 +20,7 @@ This SRS details the functional and non-functional requirements of the system. S
 ### 1.2. Overall Description
 
 #### 1.2.1. Product Perspective
-Event Horizon Planner is a self-contained web application. It is built on a modern tech stack (Next.js, React) and utilizes Genkit for its AI features. It is intended to be a one-stop-shop for users planning events.
+Eventbase is a self-contained web application. It is built on a modern tech stack (Next.js, React) and utilizes Genkit for its AI features. It is intended to be a one-stop-shop for users planning events.
 
 #### 1.2.2. Product Functions
 - **Blog Management:** CRUD operations for blog posts.
@@ -119,7 +119,7 @@ This estimation assumes a single developer with expertise in the specified tech 
 
 The critical path represents the sequence of tasks that determine the total project duration. Delays in these tasks will directly impact the project completion date. While many front-end tasks can be developed in parallel, they are all dependent on the foundational setup.
 
-The critical path for the Event Horizon Planner is as follows:
+The critical path for the Eventbase is as follows:
 
 1.  **Phase 1: Foundation & Core UI (3 Days):** This entire phase is on the critical path as nothing can be built without the project setup, global layout, and basic component structure.
 2.  **AI Theme Generator (2 Days):** As the most technically complex feature involving external services (Genkit), this task is on the critical path. Its successful implementation is key to fulfilling a major project requirement and may have unforeseen challenges.
