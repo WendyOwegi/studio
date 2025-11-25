@@ -40,6 +40,10 @@ next-env.d.ts
 .genkit/*
 .env*
 
+# database
+sqlite.db
+sqlite.db-journal
+
 # firebase
 firebase-debug.log
 firestore-debug.log

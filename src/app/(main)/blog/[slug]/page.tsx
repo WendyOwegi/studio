@@ -2,21 +2,23 @@ import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { CalendarDays, User } from 'lucide-react';
 
-import { blogPosts } from '@/lib/data';
+import { getAllBlogPosts, getBlogPostBySlug } from '@/lib/blog';
 import { Badge } from '@/components/ui/badge';
 
 type Props = {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 };
 
 export async function generateStaticParams() {
+  const blogPosts = await getAllBlogPosts();
   return blogPosts.map((post) => ({
     slug: post.slug,
   }));
 }
 
-export default function BlogPostPage({ params }: Props) {
-  const post = blogPosts.find((p) => p.slug === params.slug);
+export default async function BlogPostPage({ params }: Props) {
+  const { slug } = await params;
+  const post = await getBlogPostBySlug(slug);
 
   if (!post) {
     notFound();
@@ -36,7 +38,7 @@ export default function BlogPostPage({ params }: Props) {
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
         <div className="container relative flex h-full flex-col justify-end pb-8 text-white">
           <Badge variant="secondary" className="mb-4 w-fit">{post.category}</Badge>
-          <h1 className="text-4xl font-bold leading-tight md:text-5xl drop-shadow-md">
+          <h1 className="text-4xl font-bold leading-tight md:text-5xl">
             {post.title}
           </h1>
           <div className="mt-4 flex items-center space-x-4 text-sm">
